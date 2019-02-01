@@ -9,8 +9,8 @@ UDCNet_Address,0,,,
 Ethernet_IP,10,0,25,43
 Ethernet_Subnet_Mask,255,255,255,0
 Buzzer_Volume,50,
-Freq_ISR_Controller,48000,,,
-Freq_TimeSlicer,48000,2000,48000,48000
+Freq_ISR_Controller,24000,,,
+Freq_TimeSlicer,24000,2000,24000,24000
 Max_Ref,10,,,
 Min_Ref,-10,,,
 Max_Ref_OpenLoop,80,,,
@@ -28,7 +28,7 @@ PWM_Min_Duty_OpenLoop,-0.8,,,
 PWM_Lim_Duty_Share,0,,,
 HRADC_Num_Boards,3,,,
 HRADC_Freq_SPICLK,4,,,
-HRADC_Freq_Sampling,48000,,,
+HRADC_Freq_Sampling,24000,,,
 HRADC_Enable_Heater,0,0,0,0
 HRADC_Enable_Monitor,0,0,0,0
 HRADC_Type_Transducer,3,3,8,0
