@@ -1,5 +1,5 @@
-PS_Name,FBP para UFJF,,,
-PS_Model,11,,,
+PS_Name,FBP-2S para UFJF,,,
+PS_Model,12,,,
 Num_PS_Modules,1,,,
 Command_Interface,0,,,
 RS485_Baudrate,3000000,,,
@@ -44,7 +44,7 @@ WfmRef_ID_WfmRef,0,,,
 WfmRef_SyncMode,0,,,
 WfmRef_Gain,1,,,
 WfmRef_Offset,0,,,
-Analog_Var_Max,10.5,10,10,90,6,7
+Analog_Var_Max,10.5,10,10,90,10,13
 Analog_Var_Min,0,0,-10,0,0,0
 Hard_Interlocks_Debounce_Time,1000,1000,100000,100000,100000,100000,1000
 Hard_Interlocks_Reset_Time,100000,100000,5000000,5000000,500000,500000,100000
