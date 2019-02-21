@@ -11,8 +11,8 @@ Ethernet_Subnet_Mask,255,255,255,0
 Buzzer_Volume,50,
 Freq_ISR_Controller,24000,,,
 Freq_TimeSlicer,8000,4000,,
-Max_Ref,149,,,
-Min_Ref,0,,,
+Max_Ref,20,,,
+Min_Ref,-20,,,
 Max_Ref_OpenLoop,55,,,
 Min_Ref_OpenLoop,-55,,,
 Max_SlewRate_SlowRef,10,,,
@@ -44,7 +44,7 @@ WfmRef_ID_WfmRef,0,,,
 WfmRef_SyncMode,0,,,
 WfmRef_Gain,1,,,
 WfmRef_Offset,0,,,
-Analog_Var_Max,150,75,95,80,80,80,5,150,5,1
+Analog_Var_Max,25,75,95,80,80,80,5,150,5,1
 Analog_Var_Min,0,0,50,50,0,0,0,0,0,0
 Hard_Interlocks_Debounce_Time,2000,2000,200000,500000,0,0
 Hard_Interlocks_Reset_Time,10000,10000,1000000,1000000,0,0
