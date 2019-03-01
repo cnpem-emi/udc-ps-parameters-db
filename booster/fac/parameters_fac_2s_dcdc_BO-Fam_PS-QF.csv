@@ -1,5 +1,5 @@
-PS_Name,BO-Fam:PS-QF DC/DC Mod 1/2,,,
-PS_Model,4,,,
+PS_Name,BO-Fam:PS-QF DC/DC,,,
+PS_Model,6,,,
 Num_PS_Modules,1,,,
 Command_Interface,0,,,
 RS485_Baudrate,6000000,,,
@@ -44,9 +44,9 @@ WfmRef_ID_WfmRef,0,,,
 WfmRef_SyncMode,0,,,
 WfmRef_Gain,1,,,
 WfmRef_Offset,0,,,
-Analog_Var_Max,30,55,120,80,80,80,5,0.6,5,1
-Analog_Var_Min,0,0,10,10,0,0,0,0.2,0,0
-Hard_Interlocks_Debounce_Time,2000,2000,200000,500000,0,0
-Hard_Interlocks_Reset_Time,10000,10000,1000000,1000000,0,0
-Soft_Interlocks_Debounce_Time,0,0,2000,2000,0,1000000,1000000
-Soft_Interlocks_Reset_Time,0,0,100000,100000,0,2000000,2000000
+Analog_Var_Max,30,55,120,80,30,5,0.6,5,1
+Analog_Var_Min,0,0,10,10,0,0,0.2,0,0
+Hard_Interlocks_Debounce_Time,2000,2000,200000,200000,200000,200000,200000,200000,0,0
+Hard_Interlocks_Reset_Time,10000,10000,1000000,1000000,1000000,1000000,1000000,1000000,0,0
+Soft_Interlocks_Debounce_Time,2000,2000,2000,1000000,1000000
+Soft_Interlocks_Reset_Time,100000,100000,100000,2000000,2000000
