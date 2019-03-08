@@ -1,8 +1,8 @@
 PS_Name,FAC Dipolo Linha EMA,,,
-PS_Model,4,,,
+PS_Model,11,,,
 Num_PS_Modules,1,,,
 Command_Interface,0,,,
-RS485_Baudrate,6000000,,,
+RS485_Baudrate,115200,,,
 RS485_Address,1,31,31,31
 RS485_Termination,1,,,
 UDCNet_Address,0,,,
@@ -31,7 +31,7 @@ HRADC_Freq_SPICLK,4,,,
 HRADC_Freq_Sampling,120000,,,
 HRADC_Enable_Heater,0,0,0,0
 HRADC_Enable_Monitor,0,0,0,0
-HRADC_Type_Transducer,0,0,0,0
+HRADC_Type_Transducer,0,8,0,0
 HRADC_Gain_Transducer,15,20,1,1
 HRADC_Offset_Transducer,0,0,0,0
 SigGen_Type,2,,,
