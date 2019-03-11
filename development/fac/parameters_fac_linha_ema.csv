@@ -32,7 +32,7 @@ HRADC_Freq_Sampling,120000,,,
 HRADC_Enable_Heater,0,0,0,0
 HRADC_Enable_Monitor,0,0,0,0
 HRADC_Type_Transducer,0,8,0,0
-HRADC_Gain_Transducer,15,20,1,1
+HRADC_Gain_Transducer,-15,20,1,1
 HRADC_Offset_Transducer,0,0,0,0
 SigGen_Type,2,,,
 SigGen_Num_Cycles,1,,,
@@ -44,9 +44,9 @@ WfmRef_ID_WfmRef,0,,,
 WfmRef_SyncMode,0,,,
 WfmRef_Gain,1,,,
 WfmRef_Offset,0,,,
-Analog_Var_Max,147,85,220,200,80,80,10,0.6,0,0
-Analog_Var_Min,0,0,-150,220,0,0,0,0.2,0
-Hard_Interlocks_Debounce_Time,2000,2000,200000,500000,0,0
-Hard_Interlocks_Reset_Time,10000,10000,1000000,1000000,0,0
-Soft_Interlocks_Debounce_Time,0,0,2000,2000,0,1000000,1000000
-Soft_Interlocks_Reset_Time,0,0,100000,100000,0,2000000,2000000
+Analog_Var_Max,147,85,220,160,0.6,100000,0
+Analog_Var_Min,0,0,-5,50,0.2,0,0
+Hard_Interlocks_Debounce_Time,2000,2000,200000,100000,100000,100000,0
+Hard_Interlocks_Reset_Time,10000,10000,1000000,500000,500000,500000,0
+Soft_Interlocks_Debounce_Time,1000000,1000000
+Soft_Interlocks_Reset_Time,1001000,1001000
