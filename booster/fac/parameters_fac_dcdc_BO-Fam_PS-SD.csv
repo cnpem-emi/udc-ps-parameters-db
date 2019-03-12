@@ -46,7 +46,7 @@ WfmRef_Gain,1,,,
 WfmRef_Offset,0,,,
 Analog_Var_Max,150,55,95,70,80,80,5,150,5,1
 Analog_Var_Min,0,0,30,30,0,0,0,0,0,0
-Hard_Interlocks_Debounce_Time,2000,2000,200000,500000,0,0
-Hard_Interlocks_Reset_Time,10000,10000,1000000,1000000,0,0
-Soft_Interlocks_Debounce_Time,0,0,2000,2000,0,1000000,1000000
-Soft_Interlocks_Reset_Time,0,0,100000,100000,0,1000100,1000100
+Hard_Interlocks_Debounce_Time,2000,2000,200000,500000,0,0,10000,10000
+Hard_Interlocks_Reset_Time,10000,10000,1000000,1000000,0,0,100000,100000
+Soft_Interlocks_Debounce_Time,0,0,2000,2000,2000,1000000,1000000
+Soft_Interlocks_Reset_Time,0,0,100000,100000,100000,1001000,1001000
