@@ -31,7 +31,7 @@ HRADC_Freq_SPICLK,4,,,
 HRADC_Freq_Sampling,100000,,,
 HRADC_Enable_Heater,0,,,
 HRADC_Enable_Monitor,0,,,
-HRADC_Type_Transducer,Iin_bipolar,Iin_bipolar,Iin_bipolar,Iin_bipolar
+HRADC_Type_Transducer,3,3,3,3
 HRADC_Gain_Transducer,250,250,250,250
 HRADC_Offset_Transducer,0,0,0,0
 SigGen_Type,2,,,
