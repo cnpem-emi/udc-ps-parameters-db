@@ -44,7 +44,7 @@ WfmRef_ID_WfmRef,0,,,
 WfmRef_SyncMode,0,,,
 WfmRef_Gain,1,,,
 WfmRef_Offset,0,,,
-Analog_Var_Max,10.5,17,17,90
+Analog_Var_Max,10.5,17,17,128
 Analog_Var_Min,0,0,10,0
 Hard_Interlocks_Debounce_Time,1000,1000,100000,100000,100000,100000,1000
 Hard_Interlocks_Reset_Time,100000,100000,5000000,5000000,500000,500000,100000
