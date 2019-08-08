@@ -1,4 +1,4 @@
-PS_Name,FBP_DCLINK,,,
+PS_Name,FBP DC Link 7V,,,
 PS_Model,2,,,
 Num_PS_Modules,2,,,
 Command_Interface,0,,,
@@ -9,9 +9,9 @@ UDCNet_Address,,,,
 Ethernet_IP,,,,
 Ethernet_Subnet_Mask,,,,
 Buzzer_Volume,50,
-Freq_ISR_Controller,10000,,,
+Freq_ISR_Controller,,,,
 Freq_TimeSlicer,,,,
-Max_Ref,15,,,
+Max_Ref,7,,,
 Min_Ref,4,,,
 Max_Ref_OpenLoop,100,,,
 Min_Ref_OpenLoop,25,,,
@@ -45,7 +45,7 @@ WfmRef_SyncMode,,,,
 WfmRef_Gain,,,,
 WfmRef_Offset,,,,
 Analog_Var_Max,8,8,8,8
-Analog_Var_Min,3,3,3,3
+Analog_Var_Min,0.5,0.5,0.5,0.5
 Hard_Interlocks_Debounce_Time,5000,5000,5000,5000,5000,5000,5000,5000,5000,5000,5000,5000,5000
 Hard_Interlocks_Reset_Time,15000,15000,15000,15000,15000,15000,15000,15000,15000,15000,15000,15000,15000
 Soft_Interlocks_Debounce_Time,
