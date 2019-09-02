@@ -9,7 +9,7 @@ UDCNet_Address,0,,,
 Ethernet_IP,10,0,25,43
 Ethernet_Subnet_Mask,255,255,255,0
 Buzzer_Volume,50,
-Freq_ISR_Controller,24000,,,
+Freq_ISR_Controller,48000,,,
 Freq_TimeSlicer,8000,4000,,
 Max_Ref,120,,,
 Min_Ref,-120,,,
@@ -28,7 +28,7 @@ PWM_Min_Duty_OpenLoop,-0.8,,,
 PWM_Lim_Duty_Share,0,,,
 HRADC_Num_Boards,4,,,
 HRADC_Freq_SPICLK,4,,,
-HRADC_Freq_Sampling,120000,,,
+HRADC_Freq_Sampling,144000,,,
 HRADC_Enable_Heater,0,0,0,0
 HRADC_Enable_Monitor,0,0,0,0
 HRADC_Type_Transducer,0,0,0,0
@@ -41,11 +41,11 @@ SigGen_Amplitude,0,,,
 SigGen_Offset,0,,,
 SigGen_Aux_Param,0,0,0,0
 WfmRef_ID_WfmRef,0,,,
-WfmRef_SyncMode,0,,,
+WfmRef_SyncMode,2,,,
 WfmRef_Gain,1,,,
 WfmRef_Offset,0,,,
 Analog_Var_Max,125,510,370,300,260,5,150,6,1
-Analog_Var_Min,0,0,30,30,0,0,0,0,0,0
+Analog_Var_Min,0,0,30,30,0,0,0,31,0
 Hard_Interlocks_Debounce_Time,2000,2000,200000,200000,500000,500000,200000,200000,0,0,10000,10000
 Hard_Interlocks_Reset_Time,10000,10000,1000000,1000000,1000000,1000000,1000000,1000000,0,0,100000,100000
 Soft_Interlocks_Debounce_Time,2000,2000,0,1000000,1000000
