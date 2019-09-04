@@ -1,10 +1,10 @@
-PS_Name,IA-03RaPS01:PS-DCLink-AS,,,
+PS_Name,IA-03RaPS01:PS-DCLink-SI,,,
 PS_Model,2,,,
 Num_PS_Modules,2,,,
 Command_Interface,0,,,
 RS485_Baudrate,6000000,,,
 RS485_Address,1,30,30,30
-RS485_Termination,0,,,
+RS485_Termination,1,,,
 UDCNet_Address,,,,
 Ethernet_IP,,,,
 Ethernet_Subnet_Mask,,,,
