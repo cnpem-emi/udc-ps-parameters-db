@@ -1,4 +1,4 @@
-PS_Name,BO-15U:PS-CH BO-15U:PS-CV BO-17U:PS-CH BO-17U:PS-CV,,,
+PS_Name,BO-15U:PS-CH / BO-15U:PS-CV / BO-17U:PS-CH / BO-17U:PS-CV,,,
 PS_Model,1,,,
 Num_PS_Modules,4,,,
 Command_Interface,0,,,
@@ -44,8 +44,8 @@ WfmRef_ID_WfmRef,0,,,
 WfmRef_SyncMode,2,,,
 WfmRef_Gain,1,,,
 WfmRef_Offset,0,,,
-Analog_Var_Max,10.5,8,8,128
-Analog_Var_Min,0,0,4,0
+Analog_Var_Max,10.5,8,8,128,13
+Analog_Var_Min,0,0,4,0,0
 Hard_Interlocks_Debounce_Time,1000,10000,100000,100000,100000,100000,1000
 Hard_Interlocks_Reset_Time,100000,100000,5000000,5000000,500000,500000,100000
 Soft_Interlocks_Debounce_Time,1000000
