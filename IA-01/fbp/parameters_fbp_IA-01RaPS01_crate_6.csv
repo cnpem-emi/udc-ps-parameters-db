@@ -1,6 +1,6 @@
 PS_Name,BO-01U:PS-CH / BO-01U:PS-CV / BO-02D:PS-QS,,,
 PS_Model,1,,,
-Num_PS_Modules,4,,,
+Num_PS_Modules,3,,,
 Command_Interface,0,,,
 RS485_Baudrate,6000000,,,
 RS485_Address,1,2,3,4

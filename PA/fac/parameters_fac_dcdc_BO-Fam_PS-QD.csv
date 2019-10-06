@@ -41,10 +41,10 @@ SigGen_Amplitude,0,,,
 SigGen_Offset,0,,,
 SigGen_Aux_Param,0,0,0,0
 WfmRef_ID_WfmRef,0,,,
-WfmRef_SyncMode,0,,,
+WfmRef_SyncMode,2,,,
 WfmRef_Gain,1,,,
 WfmRef_Offset,0,,,
-Analog_Var_Max,33,55,70,58,80,80,5,37.5,5,1
+Analog_Var_Max,33,55,70,58,80,80,5,37.5,4,1
 Analog_Var_Min,0,0,30,30,0,0,0,0,0,0
 Hard_Interlocks_Debounce_Time,2000,2000,200000,500000,0,0,10000,10000
 Hard_Interlocks_Reset_Time,10000,10000,1000000,1000000,0,0,100000,100000
