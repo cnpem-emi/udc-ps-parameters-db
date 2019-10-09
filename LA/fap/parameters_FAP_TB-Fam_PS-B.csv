@@ -15,7 +15,7 @@ Max_Ref,300,,,
 Min_Ref,0,,,
 Max_Ref_OpenLoop,90,,,
 Min_Ref_OpenLoop,0,,,
-Max_SlewRate_SlowRef,10,,,
+Max_SlewRate_SlowRef,100,,,
 Max_SlewRate_SigGen_Amp,10,,,
 Max_SlewRate_SigGen_Offset,10,,,
 Max_SlewRate_WfmRef,10,,,
@@ -44,8 +44,8 @@ WfmRef_ID_WfmRef,0,,,
 WfmRef_SyncMode,0,,,
 WfmRef_Gain,1,,,
 WfmRef_Offset,0,,,
-Analog_Var_Max,310,30,175,50,45,24,2,0.6,0,1000,1000,3
-Analog_Var_Min,0,0,0,0,20,20,0,0.2,0,0,0,0
+Analog_Var_Max,310,55,170,50,59,50,2,10,0,1000,1000,3
+Analog_Var_Min,0,0,0,0,38,38,0,1,0,0,0,0
 Hard_Interlocks_Debounce_Time,2000,2000,200000,500000,10000,2000,2000
 Hard_Interlocks_Reset_Time,10000,10000,1000000,1000000,100000,50000,50000
 Soft_Interlocks_Debounce_Time,2000,2000,2000,1000000,1000000,2000000
