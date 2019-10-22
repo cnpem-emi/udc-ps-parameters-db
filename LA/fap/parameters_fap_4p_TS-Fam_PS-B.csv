@@ -15,7 +15,7 @@ Max_Ref,749,,,
 Min_Ref,0,,,
 Max_Ref_OpenLoop,75,,,
 Min_Ref_OpenLoop,0,,,
-Max_SlewRate_SlowRef,30,,,
+Max_SlewRate_SlowRef,75,,,
 Max_SlewRate_SigGen_Amp,10,,,
 Max_SlewRate_SigGen_Offset,10,,,
 Max_SlewRate_WfmRef,10,,,
@@ -34,12 +34,12 @@ HRADC_Enable_Monitor,0,0,0,0
 HRADC_Type_Transducer,0,0,0,0
 HRADC_Gain_Transducer,75,-75,5,0
 HRADC_Offset_Transducer,0,0,0,0
-SigGen_Type,2,,,
-SigGen_Num_Cycles,1,,,
-SigGen_Freq,0,,,
-SigGen_Amplitude,0,,,
+SigGen_Type,3,,,
+SigGen_Num_Cycles,32,,,
+SigGen_Freq,0.1666666666,,,
+SigGen_Amplitude,749,,,
 SigGen_Offset,0,,,
-SigGen_Aux_Param,0,0,0,0
+SigGen_Aux_Param,0,0,16,0
 WfmRef_ID_WfmRef,0,,,
 WfmRef_SyncMode,0,,,
 WfmRef_Gain,1,,,
@@ -48,5 +48,5 @@ Analog_Var_Max,750,45,7.5,11.25,150,0,0,50,20000,1000,3
 Analog_Var_Min,0,0,0,2,0,0,0,0,0,0,8
 Hard_Interlocks_Debounce_Time,2000,2000,2000,2000,2000,2000,2000,2000,2000,2000,10000,10000,10000,10000,200000,200000,200000,200000,500000,500000,500000,500000,
 Hard_Interlocks_Reset_Time,10000,10000,50000,50000,50000,50000,50000,50000,50000,50000,100000,100000,100000,100000,1000000,1000000,1000000,1000000,1000000,1000000,1000000,1000000,
-Soft_Interlocks_Debounce_Time,2000,2000,2000,1000000,1000000,2000000
-Soft_Interlocks_Reset_Time,100000,100000,100000,2000000,2000000,5000000
+Soft_Interlocks_Debounce_Time,2000,2000,2000,500000,500000,2000000
+Soft_Interlocks_Reset_Time,100000,100000,100000,500001,500001,5000000
