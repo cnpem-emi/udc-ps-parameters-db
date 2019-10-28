@@ -32,7 +32,7 @@ HRADC_Freq_Sampling,120000,,,
 HRADC_Enable_Heater,0,0,0,0
 HRADC_Enable_Monitor,0,0,0,0
 HRADC_Type_Transducer,0,0,3,3
-HRADC_Gain_Transducer,40,40,-1000,1000
+HRADC_Gain_Transducer,60,60,-1000,1000
 HRADC_Offset_Transducer,0,0,0,0
 SigGen_Type,2,,,
 SigGen_Num_Cycles,1,,,
