@@ -1,9 +1,9 @@
-PS_Name,TS-01:PS-CH / TS-01:PS-CV-1 / TS-01:PS-CV-2,,,
+PS_Name,TS-01:PS-CH / TS-01:PS-CV-1 / TS-01:PS-CV-2 / TS-04:PS-CV-0,,,
 PS_Model,1,,,
-Num_PS_Modules,3,,,
+Num_PS_Modules,4,,,
 Command_Interface,0,,,
 RS485_Baudrate,6000000,,,
-RS485_Address,1,2,3,30
+RS485_Address,1,2,3,11
 RS485_Termination,0,,,
 UDCNet_Address,0,,,
 Ethernet_IP,10,0,25,43

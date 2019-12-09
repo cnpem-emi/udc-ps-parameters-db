@@ -1,9 +1,9 @@
-PS_Name,TB-01:PS-QD1 / TB-01:PS-QF1,,,
+PS_Name,TB-01:PS-QD1 / TB-01:PS-QF1 / TS-01:PS-CV-1E2 / TS-02:PS-CV-0,,,
 PS_Model,1,,,
-Num_PS_Modules,2,,,
+Num_PS_Modules,4,,,
 Command_Interface,0,,,
 RS485_Baudrate,6000000,,,
-RS485_Address,1,2,29,30
+RS485_Address,1,2,11,12
 RS485_Termination,0,,,
 UDCNet_Address,0,,,
 Ethernet_IP,10,0,25,43
