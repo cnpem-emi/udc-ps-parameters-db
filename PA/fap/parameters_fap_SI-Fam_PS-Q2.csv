@@ -13,7 +13,7 @@ Freq_ISR_Controller,40000,,,
 Freq_TimeSlicer,40000,4000,1000,0
 Max_Ref,160,,,
 Min_Ref,0,,,
-Max_Ref_OpenLoop,70,,,
+Max_Ref_OpenLoop,90,,,
 Min_Ref_OpenLoop,0,,,
 Max_SlewRate_SlowRef,10,,,
 Max_SlewRate_SigGen_Amp,10,,,
@@ -21,9 +21,9 @@ Max_SlewRate_SigGen_Offset,10,,,
 Max_SlewRate_WfmRef,10,,,
 PWM_Freq,20000,,,
 PWM_DeadTime,0,,,
-PWM_Max_Duty,0.7,,,
+PWM_Max_Duty,0.9,,,
 PWM_Min_Duty,0.0,,,
-PWM_Max_Duty_OpenLoop,0.6,,,
+PWM_Max_Duty_OpenLoop,0.9,,,
 PWM_Min_Duty_OpenLoop,0.0,,,
 PWM_Lim_Duty_Share,0.0015,,,
 HRADC_Num_Boards,3,,,
@@ -44,8 +44,8 @@ WfmRef_ID_WfmRef,0,,,
 WfmRef_SyncMode,0,,,
 WfmRef_Gain,1,,,
 WfmRef_Offset,0,,,
-Analog_Var_Max,165,280,150,50,410,390,2,0.6,0,1000,1000,4,1,100
-Analog_Var_Min,0,0,0,0,20,20,0,0.2,0,0,0,0,0,0
+Analog_Var_Max,165,390,150,50,410,390,2,165,0,1000,1000,4,1,100
+Analog_Var_Min,0,0,0,0,20,20,0,0,0,0,0,0,0,0
 Hard_Interlocks_Debounce_Time,2000,2000,200000,500000,10000,2000,2000,0
 Hard_Interlocks_Reset_Time,10000,10000,1000000,1000000,100000,50000,50000,0
 Soft_Interlocks_Debounce_Time,2000,2000,2000,1000000,1000000,2000000
