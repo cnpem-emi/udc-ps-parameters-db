@@ -36,11 +36,11 @@ HRADC_Type_Transducer,3,3,3,3
 HRADC_Gain_Transducer,250,250,250,250
 HRADC_Offset_Transducer,0,0,0,0
 SigGen_Type,1,,,
-SigGen_Num_Cycles,100,,,
-SigGen_Freq,2,,,
-SigGen_Amplitude,10,,,
+SigGen_Num_Cycles,7,,,
+SigGen_Freq,0.1,,,
+SigGen_Amplitude,9,,,
 SigGen_Offset,0,,,
-SigGen_Aux_Param,0,0,2,0
+SigGen_Aux_Param,0,0,10,0
 WfmRef_ID_WfmRef,0,0,0,0
 WfmRef_SyncMode,0,0,0,0
 WfmRef_Gain,1,1,1,1
