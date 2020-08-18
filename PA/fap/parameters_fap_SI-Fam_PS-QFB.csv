@@ -42,8 +42,8 @@ WfmRef_SyncMode,2
 WfmRef_Frequency,2000
 WfmRef_Gain,1
 WfmRef_Offset,0
-Analog_Var_Max,165,200,150,50,400,330,2,165,0,1000,1000,1,100
-Analog_Var_Min,0,0,0,0,20,20,0,0,0,0,0,0,0
+Analog_Var_Max,165,200,150,50,400,2,165,0,1000,1000,1,100
+Analog_Var_Min,0,0,0,0,20,0,0,0,0,0,0,0
 Hard_Interlocks_Debounce_Time,2000,2000,200000,500000,10000,10000,2000,2000,0
 Hard_Interlocks_Reset_Time,10000,10000,1000000,1000000,100000,100000,50000,50000,0
 Soft_Interlocks_Debounce_Time,2000,2000,2000,1000000,1000000,2000000
