@@ -37,7 +37,7 @@ SigGen_Freq,0
 SigGen_Amplitude,0
 SigGen_Offset,0
 SigGen_Aux_Param,0,0,0,0
-WfmRef_ID_WfmRef,1
+WfmRef_ID_WfmRef,0
 WfmRef_SyncMode,2
 WfmRef_Frequency,2000
 WfmRef_Gain,1
