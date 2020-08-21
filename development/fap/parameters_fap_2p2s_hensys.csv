@@ -1,14 +1,14 @@
-PS_Name,FAP-2P2S Default (RS485 Baudrate = 6 Mbps)
+PS_Name,FAP-2P2S Hensys
 PS_Model,12
 Num_PS_Modules,1
 Command_Interface,0
-RS485_Baudrate,6000000
+RS485_Baudrate,115200
 RS485_Address,1,30,30,30
 RS485_Termination,1
 UDCNet_Address,0
 Ethernet_IP,10,0,25,43
 Ethernet_Subnet_Mask,255,255,255,0
-Buzzer_Volume,0
+Buzzer_Volume,0.01
 Freq_ISR_Controller,40000
 Freq_TimeSlicer,1000,0,0,0
 Control_Loop_State,0
@@ -27,10 +27,10 @@ HRADC_Num_Boards,4
 HRADC_Freq_SPICLK,4
 HRADC_Freq_Sampling,120000
 HRADC_Enable_Heater,0,0,0,0
-HRADC_Enable_Monitor,0,0,0,0
-HRADC_Type_Transducer,0,0,3,3
+HRADC_Enable_Monitor,1,1,0,0
+HRADC_Type_Transducer,8,8,0,0
 HRADC_Gain_Transducer,44,44,-2000,2000
-HRADC_Offset_Transducer,0,0,0,0
+HRADC_Offset_Transducer,8,8,0,0
 SigGen_Type,0
 SigGen_Num_Cycles,3
 SigGen_Freq,0.1

@@ -2,7 +2,7 @@ PS_Name,FAP-2P2S Default (RS485 Baudrate = 6 Mbps)
 PS_Model,12
 Num_PS_Modules,1
 Command_Interface,0
-RS485_Baudrate,6000000
+RS485_Baudrate,115200
 RS485_Address,1,30,30,30
 RS485_Termination,1
 UDCNet_Address,0
