@@ -43,7 +43,7 @@ WfmRef_Frequency,1000
 WfmRef_Gain,1
 WfmRef_Offset,0
 Analog_Var_Max,370,560,180,12000,1000
-Analog_Var_Min,0,0,0,0,0
+Analog_Var_Min,0,-10,0,0,0
 Hard_Interlocks_Debounce_Time,500000,200000,500000,10000,10000,10000,0,0
 Hard_Interlocks_Reset_Time,1000000,1000000,1000000,500000,100000,100000,0,0
 Soft_Interlocks_Debounce_Time,0
