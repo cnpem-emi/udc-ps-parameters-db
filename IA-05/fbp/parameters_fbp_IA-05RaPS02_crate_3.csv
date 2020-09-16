@@ -26,11 +26,11 @@ PWM_Lim_Duty_Share,0
 HRADC_Num_Boards,4
 HRADC_Freq_SPICLK,4
 HRADC_Freq_Sampling,100000
-HRADC_Enable_Heater,0,0,0
-HRADC_Enable_Monitor,1,1,1
-HRADC_Type_Transducer,3,3,3
-HRADC_Gain_Transducer,250,250,250
-HRADC_Offset_Transducer,0,0,0
+HRADC_Enable_Heater,0,0,0,0
+HRADC_Enable_Monitor,1,1,1,1
+HRADC_Type_Transducer,3,3,3,3
+HRADC_Gain_Transducer,250,250,250,250
+HRADC_Offset_Transducer,0,0,0,0
 SigGen_Type,1
 SigGen_Num_Cycles,7
 SigGen_Freq,0.1
