@@ -10,7 +10,7 @@ Ethernet_IP,10,0,25,43
 Ethernet_Subnet_Mask,255,255,255,0
 Buzzer_Volume,0
 Freq_ISR_Controller,50000
-Freq_TimeSlicer,2000,2000,50000,50000
+Freq_TimeSlicer,0
 Control_Loop_State,1
 Max_Ref,10,10,10,10
 Min_Ref,-10,-10,-10,-10
