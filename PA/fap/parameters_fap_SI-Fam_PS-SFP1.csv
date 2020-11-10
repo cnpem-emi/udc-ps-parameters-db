@@ -12,7 +12,7 @@ Buzzer_Volume,50,0
 Freq_ISR_Controller,40000
 Freq_TimeSlicer,1000,0,0,0
 Control_Loop_State,0
-Max_Ref,160
+Max_Ref,180
 Min_Ref,0
 Max_Ref_OpenLoop,90
 Min_Ref_OpenLoop,0
@@ -29,7 +29,7 @@ HRADC_Freq_Sampling,120000
 HRADC_Enable_Heater,0,0,0,0
 HRADC_Enable_Monitor,1,1,1,1
 HRADC_Type_Transducer,0,0,0,0
-HRADC_Gain_Transducer,15,15,30,0
+HRADC_Gain_Transducer,20,20,30,0
 HRADC_Offset_Transducer,0,0,0,0
 SigGen_Type,0
 SigGen_Num_Cycles,3
@@ -42,7 +42,7 @@ WfmRef_SyncMode,2
 WfmRef_Frequency,2000
 WfmRef_Gain,1
 WfmRef_Offset,0
-Analog_Var_Max,165,80,150,50,140,2,165,0,1000,1000,1,100
+Analog_Var_Max,185,90,150,50,140,2,185,0,1000,1000,1,100
 Analog_Var_Min,0,0,0,0,20,0,0,0,0,0,0,0
 Hard_Interlocks_Debounce_Time,2000,2000,200000,500000,10000,10000,2000,2000,0
 Hard_Interlocks_Reset_Time,10000,10000,1000000,1000000,100000,100000,50000,50000,0
