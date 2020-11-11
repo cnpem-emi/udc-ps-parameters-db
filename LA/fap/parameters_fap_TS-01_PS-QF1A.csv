@@ -1,6 +1,6 @@
 PS_Name,TS-01:PS-QF1A
 PS_Model,9
-Num_PS_Modules,2
+Num_PS_Modules,1
 Command_Interface,0
 RS485_Baudrate,6000000
 RS485_Address,2,30,30,30
