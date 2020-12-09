@@ -1,8 +1,8 @@
-PS_Name,FBP DC-Link 15V
+PS_Name,FBP DC-Link 15V Default (RS485 Baudrate = 115200 bps)
 PS_Model,2
 Num_PS_Modules,2
 Command_Interface,0
-RS485_Baudrate,6000000
+RS485_Baudrate,115200
 RS485_Address,1,30,30,30
 RS485_Termination,1
 UDCNet_Address
