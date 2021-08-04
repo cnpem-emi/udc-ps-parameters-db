@@ -11,7 +11,7 @@ Ethernet_Subnet_Mask,255,255,255,0
 Buzzer_Volume,0
 Freq_ISR_Controller,50000
 Freq_TimeSlicer,0
-Control_Loop_State,1
+Control_Loop_State,0
 Max_Ref,10,10,10,10
 Min_Ref,-10,-10,-10,-10
 Max_Ref_OpenLoop,80,80,80,80
@@ -42,8 +42,8 @@ WfmRef_SyncMode,2,2,2,2
 WfmRef_Frequency,2000,2000,2000,2000
 WfmRef_Gain,1,1,1,1
 WfmRef_Offset,0,0,0,0
-Analog_Var_Max,10.5,10.5,10.5,10.5,10,10,10,10,20,20,20,20,128,128,128,128,0,0,0,0
-Analog_Var_Min,0,0,0,0,0,0,0,0,10,10,10,10,0,0,0,0,0,0,0,0
+Analog_Var_Max,10.5,10.5,10.5,10.5,10,10,10,10,8,8,8,8,128,128,128,128,0,0,0,0
+Analog_Var_Min,0,0,0,0,0,0,0,0,3,3,3,3,0,0,0,0,0,0,0,0
 Hard_Interlocks_Debounce_Time,1000,100000,100000,100000,100000,100000,1000
 Hard_Interlocks_Reset_Time,100000,100000,5000000,5000000,500000,500000,100000
 Soft_Interlocks_Debounce_Time,1000000
