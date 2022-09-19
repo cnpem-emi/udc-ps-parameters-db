@@ -49,4 +49,4 @@ Hard_Interlocks_Reset_Time,10000,1000000,1000000,2000000,100000,100000
 Soft_Interlocks_Debounce_Time,2000,2000,2000,1000000,1000000
 Soft_Interlocks_Reset_Time,100000,100000,100000,1001000,1001000
 Scope_Sampling_Frequency,8000
-Scope_Source,53258
+Scope_Source,53256
