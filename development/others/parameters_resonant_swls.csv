@@ -1,4 +1,4 @@
-PS_Name,Resonant SWLS prot. v1.0
+PS_Name,Resonant SWLS prot. v1.1
 PS_Model,16
 Num_PS_Modules,1
 Command_Interface,0
@@ -23,13 +23,13 @@ PWM_Min_Duty,0.0
 PWM_Max_Duty_OpenLoop,0.0
 PWM_Min_Duty_OpenLoop,0.0
 PWM_Lim_Duty_Share,0
-HRADC_Num_Boards,1
+HRADC_Num_Boards,2
 HRADC_Freq_SPICLK,4
 HRADC_Freq_Sampling,30000
 HRADC_Enable_Heater,0,0,0,0
 HRADC_Enable_Monitor,1,1,1,1
 HRADC_Type_Transducer,3,0,0,0
-HRADC_Gain_Transducer,2000,0,0,0
+HRADC_Gain_Transducer,2000,5,0,0
 HRADC_Offset_Transducer,0,0,0,0
 SigGen_Type,0
 SigGen_Num_Cycles,1
@@ -42,10 +42,10 @@ WfmRef_SyncMode,2
 WfmRef_Frequency,3000
 WfmRef_Gain,1
 WfmRef_Offset,0
-Analog_Var_Max,40,6
-Analog_Var_Min,0
-Hard_Interlocks_Debounce_Time,2000
-Hard_Interlocks_Reset_Time,10000
+Analog_Var_Max,40,6,45
+Analog_Var_Min,0,0,10
+Hard_Interlocks_Debounce_Time,2000,10000,10000
+Hard_Interlocks_Reset_Time,10000,20000,20000
 Soft_Interlocks_Debounce_Time
 Soft_Interlocks_Reset_Time
 Scope_Sampling_Frequency,3000
