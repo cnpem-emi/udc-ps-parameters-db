@@ -39,7 +39,7 @@ SigGen_Offset,0
 SigGen_Aux_Param,0,0,10,0
 WfmRef_ID_WfmRef,0,0,0,0
 WfmRef_SyncMode,2,2,2,2
-WfmRef_Frequency,2000,2000,2000,2000
+WfmRef_Frequency,50000,50000,50000,50000
 WfmRef_Gain,1,1,1,1
 WfmRef_Offset,0,0,0,0
 Analog_Var_Max,1.2,1.2,1.2,1.2,2,2,2,2,8,8,8,8,128,128,128,128,0,0,0,0
@@ -48,5 +48,5 @@ Hard_Interlocks_Debounce_Time,1000,100000,100000,100000,100000,100000,1000
 Hard_Interlocks_Reset_Time,100000,100000,5000000,5000000,500000,500000,100000
 Soft_Interlocks_Debounce_Time,1000000
 Soft_Interlocks_Reset_Time,1200000
-Scope_Sampling_Frequency,2000,2000,2000,2000
+Scope_Sampling_Frequency,50000,50000,50000,50000
 Scope_Source,53248,53250,53252,53254
