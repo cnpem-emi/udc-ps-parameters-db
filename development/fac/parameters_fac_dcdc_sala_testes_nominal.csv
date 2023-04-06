@@ -2,7 +2,7 @@ PS_Name,FAC-DCDC Sala de Testes Nominal
 PS_Model,4
 Num_PS_Modules,1
 Command_Interface,0
-RS485_Baudrate,115200
+RS485_Baudrate,6000000
 RS485_Address,1,30,30,30
 RS485_Termination,0
 UDCNet_Address,0
@@ -42,10 +42,10 @@ WfmRef_SyncMode,2
 WfmRef_Frequency,8000
 WfmRef_Gain,1
 WfmRef_Offset,0
-Analog_Var_Max,170,200,291,10,625,0
+Analog_Var_Max,170,200,291,10,625,0,0.6
 Analog_Var_Min,0,0,150,0,0,0
-Hard_Interlocks_Debounce_Time,2000,200000,500000,1000000,10000,10000
-Hard_Interlocks_Reset_Time,10000,1000000,1000000,2000000,100000,100000
+Hard_Interlocks_Debounce_Time,2000,200000,500000,1000000,10000,10000,1000000
+Hard_Interlocks_Reset_Time,10000,1000000,1000000,2000000,100000,100000,2000000
 Soft_Interlocks_Debounce_Time,2000,2000,2000,1000000,1000000
 Soft_Interlocks_Reset_Time,100000,100000,100000,1001000,1001000
 Scope_Sampling_Frequency,8000
