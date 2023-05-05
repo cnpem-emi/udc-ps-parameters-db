@@ -2,7 +2,7 @@ PS_Name,EMA:B:PS-GMW
 PS_Model,11
 Num_PS_Modules,1
 Command_Interface,0
-RS485_Baudrate,115200
+RS485_Baudrate,6000000
 RS485_Address,1,31,31,31
 RS485_Termination,1
 UDCNet_Address,0
@@ -42,10 +42,10 @@ WfmRef_SyncMode,
 WfmRef_Frequency,8000
 WfmRef_Gain,1
 WfmRef_Offset,0
-Analog_Var_Max,147,210,150,100000
+Analog_Var_Max,147,210,150,100000,0.45
 Analog_Var_Min,0,5,0,5000000
-Hard_Interlocks_Debounce_Time,2000,2000,500000,100000,100000,100000,1000000
-Hard_Interlocks_Reset_Time,10000,10000,600000,500000,500000,500000,2000000
+Hard_Interlocks_Debounce_Time,2000,2000,500000,100000,100000,100000,1000000,1000000
+Hard_Interlocks_Reset_Time,10000,10000,600000,500000,500000,500000,2000000,2000000
 Soft_Interlocks_Debounce_Time,1000000,1000000
 Soft_Interlocks_Reset_Time,1001000,1001000
 Scope_Sampling_Frequency,8000
