@@ -1,8 +1,8 @@
-PS_Name,Resonant SWLS prot. v1.1
+PS_Name,Resonant SWLS prot. v2.0
 PS_Model,16
 Num_PS_Modules,1
 Command_Interface,0
-RS485_Baudrate,115200
+RS485_Baudrate,6000000
 RS485_Address,1,30,30,30
 RS485_Termination,1
 UDCNet_Address,0
@@ -12,7 +12,7 @@ Buzzer_Volume,0
 Freq_ISR_Controller,2000
 Freq_TimeSlicer,0,0,0,0
 Control_Loop_State,1
-Max_Ref,50
+Max_Ref,300
 Min_Ref,0
 Max_Ref_OpenLoop,17500
 Min_Ref_OpenLoop,2000
@@ -28,8 +28,8 @@ HRADC_Freq_SPICLK,4
 HRADC_Freq_Sampling,30000
 HRADC_Enable_Heater,0,0,0,0
 HRADC_Enable_Monitor,1,1,1,1
-HRADC_Type_Transducer,0,0,0,0
-HRADC_Gain_Transducer,15,5,0,0
+HRADC_Type_Transducer,3,3,0,0
+HRADC_Gain_Transducer,2000,2000,0,0
 HRADC_Offset_Transducer,0,0,0,0
 SigGen_Type,0
 SigGen_Num_Cycles,1
@@ -42,11 +42,11 @@ WfmRef_SyncMode,2
 WfmRef_Frequency,3000
 WfmRef_Gain,1
 WfmRef_Offset,0
-Analog_Var_Max,51,5.8,45
-Analog_Var_Min,0,0,10
-Hard_Interlocks_Debounce_Time,2000,10000,10000
-Hard_Interlocks_Reset_Time,10000,20000,20000
-Soft_Interlocks_Debounce_Time
-Soft_Interlocks_Reset_Time
+Analog_Var_Max,305,325,10,2,5.8,3000,1,1000,1000,100
+Analog_Var_Min,0,285
+Hard_Interlocks_Debounce_Time,2000,200000,500000,10000,10000,10000
+Hard_Interlocks_Reset_Time,10000,1000000,1000000,100000,100000,100000
+Soft_Interlocks_Debounce_Time,2000,2000,2000
+Soft_Interlocks_Reset_Time,100000,100000,100000
 Scope_Sampling_Frequency,2000
-Scope_Source,53248
+Scope_Source,53252
