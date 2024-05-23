@@ -3,7 +3,7 @@ PS_Model,2
 Num_PS_Modules,2
 Command_Interface,0
 RS485_Baudrate,6000000
-RS485_Address,1,30,30,30
+RS485_Address,3,30,30,30
 RS485_Termination,1
 UDCNet_Address,65535
 Ethernet_IP,255,255,255,255

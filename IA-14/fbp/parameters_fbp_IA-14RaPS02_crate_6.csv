@@ -3,8 +3,8 @@ PS_Model,1
 Num_PS_Modules,4
 Command_Interface,0
 RS485_Baudrate,6000000
-RS485_Address,1,2,3,4,30
-RS485_Termination,0
+RS485_Address,1,2,3,4
+RS485_Termination,1
 UDCNet_Address,0
 Ethernet_IP,10,0,25,43
 Ethernet_Subnet_Mask,255,255,255,0

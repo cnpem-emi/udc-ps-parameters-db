@@ -1,10 +1,10 @@
-PS_Name,IA-14RaPS02:PS-DCLink-SI
+PS_Name,IA-14RaPS02:PS-DCLink-SI1
 PS_Model,2
 Num_PS_Modules,2
 Command_Interface,0
 RS485_Baudrate,6000000
 RS485_Address,2,30,30,30
-RS485_Termination,1
+RS485_Termination,0
 UDCNet_Address,65535
 Ethernet_IP,255,255,255,255
 Ethernet_Subnet_Mask,255,255,255,255
