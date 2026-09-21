@@ -12,7 +12,7 @@ Buzzer_Volume,50,0
 Freq_ISR_Controller
 Freq_TimeSlicer
 Control_Loop_State,1
-Max_Ref,15
+Max_Ref,19
 Min_Ref,4
 Max_Ref_OpenLoop,100
 Min_Ref_OpenLoop,25
